@@ -9,10 +9,9 @@
   <div>
     <div>I am app2</div>
     <div>
-      <iframe src="http://localhost:63091"></iframe>
+      <iframe allow="true" #frm2 src="http://localhost:63091"></iframe>
     </div>
   </div>
-
 
   <div>
     <div>I am google</div>
@@ -24,6 +23,12 @@
   <div>
     <div>
       <button (click)="play()">get content of iframeapp1</button>
+    </div>
+  </div>
+
+  <div>
+    <div>
+      <button (click)="sendMessageToApp2()">sendMessageToApp2</button>
     </div>
   </div>
 </div>
