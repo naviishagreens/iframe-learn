@@ -13,3 +13,6 @@ static function OnBeforeResponse(oSession: Session) {
 			
 		}
     }
+
+
+https://stackoverflow.com/questions/25098021/securityerror-blocked-a-frame-with-origin-from-accessing-a-cross-origin-frame
